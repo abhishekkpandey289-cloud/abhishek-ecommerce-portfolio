@@ -1,6 +1,18 @@
-document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click',e=>{
-    const target=document.querySelector(a.getAttribute('href'));
-    if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'});}
-  });
-});
+/* ================================
+BASIC JAVASCRIPT
+E-Commerce Freelancing Portfolio
+================================ */
+
+// Page load hone par console me message
+window.onload = function() {
+
+console.log("Abhishek Portfolio Loaded");
+
+};
+
+// Contact button ke liye simple function
+function contactMessage() {
+
+alert("Thank you for contacting me!");
+
+}
